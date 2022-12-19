@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploration.SwitchExpressions", "Exploration.SwitchExpressions\Exploration.SwitchExpressions.csproj", "{1DACAE62-7412-4EC9-975C-3E702B009C7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exploration.SwitchExpressions", "Exploration.SwitchExpressions", "{C19E16E6-D3E9-40DB-B528-91B70C4E5B19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,8 @@ Global
 		{1DACAE62-7412-4EC9-975C-3E702B009C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DACAE62-7412-4EC9-975C-3E702B009C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DACAE62-7412-4EC9-975C-3E702B009C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DACAE62-7412-4EC9-975C-3E702B009C7D} = {C19E16E6-D3E9-40DB-B528-91B70C4E5B19}
 	EndGlobalSection
 EndGlobal
